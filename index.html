@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="./main.css">
+    <title>Inmobilaria</title>
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <div class="header__container">
+          <div class="header__info">
+            <p><i class="bi bi-telephone"></i> 1-900-523-3564</p>
+            <p><i class="bi bi-envelope"></i> info@inmobilaria.com</p>
+          </div>
+        </div> 
+      </header>
+      <nav>
+        <div class="navbar">
+          <a href="#">
+            <h1>Tu <span>Casa</span></h1>
+          </a>
+          <i class="bi bi-list" id="menu"></i>
+          <div class="navbar__links ocultar" id="navbarLinks">
+            <a href="#">Alquilar</a>
+            <a href="#">Comprar</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#" class="btn-registrarse">Registrarse</a>
+            <a href="#" class="btn-iniciar-sesion">Iniciar Sesión</a>
+          </div>
+        </div>
+      </nav>
+      <!-- panel -->
+      <form id="form">
+        <div class="form__filtros">
+          <input type="text" name="ubicacion" placeholder="Escriba una ubicación">
+          <select name="select" class="select">
+            <option value="value1">Apartamento</option>
+            <option value="value2" selected>Casa</option>
+            <option value="value3">Finca</option>
+            <option value="value4">Local Comercial</option>
+          </select>
+          <input type="submit" value="BUSCAR">
+        </div>
+        <div class="form__rangos">
+          <div class="metros">
+            <p><i class="bi bi-rulers"></i> Metros Cuadrados</p>
+            <input type="text" placeholder="mínimo" class="input-filtros" >
+            <input type="text" placeholder="máximo" class="input-filtros" >
+          </div>
+          <div class="precio">
+            <p><i class="bi bi-currency-dollar"></i>Precio</p>
+            <input type="text" placeholder="mínimo" class="input-filtros">
+            <input type="text" placeholder="máximo" class="input-filtros">
+          </div>
+        </div>
+      </form>
+    </main>
+
+    <!-- nosotros -->
+    <section id="nosotros">
+      <div class="nosotros-container">
+        <figure class="nosotros__imagen">
+          <img src="./images/nosotros-imagen.jpg" alt="Imagen nosotros">
+        </figure>
+        <div class="nosotros__textos">
+          <h3 class="titulo">Nosotros</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime sit quod accusamus quas facere eaque iste laborum optio maiores fugiat quo, amet quam officiis adipisci ipsum! A dolore ex cumque!</p>
+          
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolorum, et molestiae recusandae cupiditate sed ut. Vero, quibusdam cum! Et quidem repudiandae ad illo fuga?</p>
+        </div>   
+      </div>
+    </section>
+
+    <!-- propiedades -->
+    <section id="propiedades">
+      <div class="propiedades-container">
+        <div class="tarjetas__textos">
+          <h3>Ventas y Alquileres</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, dicta delectus autem eligendi fugit voluptate.</p>
+        </div>
+        <div id="tarjetas"></div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <p>&copy BACM Design</p>
+        <div class="footer__redes">
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#nosotros"><i class="bi bi-linkedin"></i></a>
+        </div>
+        <div class="footer__links">
+          <a href="#">Inicio</a>
+          <a href="#">Preguntas Frecuentes</a>
+          <a href="#nosotros">Términos y condiciones</a>
+        </div>
+      </div>    
+    </footer>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- scripts -->
+    <script src="./scripts/main.js" type="module"></script>
+  </body>
+</html>
