@@ -7,16 +7,16 @@ export function cards(){
       nHabitaciones: 2,
       metrosCuadrados: 50,
       tipo: 'apartamento',
-      descripcion: 'lorem impusm ajhjks ahajhsjhsjs abaicsdn sdjsdij',
+      descripcion: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, ea.',
       precio: 500000,
-      imagen: 'https://www.fiaka.es/blog/wp-content/uploads/2019/05/decoacion-habitaciones-hoteles.jpg'
+      imagen: 'https://hips.hearstapps.com/hmg-prod/images/apartamento-moderno-kiev6-1642010787.jpg'
     },
     {
       estado: 'alquiler',
       nHabitaciones: 5,
       metrosCuadrados: 40,
       tipo: 'casa',
-      descripcion: 'lorem impusm ajhjks ahajhsjhsjs abaicsdn sdjsdij',
+      descripcion: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, ea.',
       precio: 300000,
       imagen: 'https://www.buyincolombia.com/wp-content/uploads/2018/08/buy-in-colombia-colombia-real-estate-realty-finca-raiz-colombia-lots-for-sale-lotes-en-venta-guatavita-gv-19-56-818x540.jpg'
     },
@@ -25,7 +25,7 @@ export function cards(){
       nHabitaciones: 2,
       metrosCuadrados: 40,
       tipo: 'finca',
-      descripcion: 'lorem impusm ajhjks ahajhsjhsjs abaicsdn sdjsdij',
+      descripcion: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, ea.',
       precio: 3000000,
       imagen: 'https://cdn.homedit.com/wp-content/uploads/2014/05/Arquitectura-en-Estudio-and-Natalia-Heredia-residence.jpg'
     },
@@ -34,7 +34,7 @@ export function cards(){
       nHabitaciones: 3,
       metrosCuadrados: 40,
       tipo: 'finca',
-      descripcion: 'lorem impusm ajhjks ahajhsjhsjs abaicsdn sdjsdij',
+      descripcion: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, ea.',
       precio: 3000000,
       imagen: 'https://www.medellinadvisors.com/wp-content/uploads/2022/03/fincas-medellin-colombia.jpg'
     },
@@ -43,16 +43,16 @@ export function cards(){
       nHabitaciones: 2,
       metrosCuadrados: 40,
       tipo: 'casa',
-      descripcion: 'lorem impusm ajhjks ahajhsjhsjs abaicsdn sdjsdij',
+      descripcion: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, ea.',
       precio: 3000000,
-      imagen: 'https://www.fiaka.es/blog/wp-content/uploads/2019/05/decoacion-habitaciones-hoteles.jpg'
+      imagen: 'https://cdn.homedit.com/wp-content/uploads/2014/05/Arquitectura-en-Estudio-and-Natalia-Heredia-residence.jpg'
     },
     {
       estado: 'alquiler',
       nHabitaciones: 2,
       metrosCuadrados: 40,
       tipo: 'local comercial',
-      descripcion: 'lorem impusm ajhjks ahajhsjhsjs abaicsdn sdjsdij',
+      descripcion: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, ea.',
       precio: 3000000,
       imagen: 'https://www.buyincolombia.com/wp-content/uploads/2018/08/buy-in-colombia-colombia-real-estate-realty-finca-raiz-colombia-lots-for-sale-lotes-en-venta-guatavita-gv-19-56-818x540.jpg'
     },
@@ -61,16 +61,16 @@ export function cards(){
       nHabitaciones: 2,
       metrosCuadrados: 40,
       tipo: 'casa',
-      descripcion: 'lorem impusm ajhjks ahajhsjhsjs abaicsdn sdjsdij',
+      descripcion: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, ea.',
       precio: 3000000,
-      imagen: 'https://www.fiaka.es/blog/wp-content/uploads/2019/05/decoacion-habitaciones-hoteles.jpg'
+      imagen: 'https://www.medellinadvisors.com/wp-content/uploads/2022/03/fincas-medellin-colombia.jpg'
     },
     {
       estado: 'alquiler',
       nHabitaciones: 2,
       metrosCuadrados: 40,
       tipo: 'local comercial',
-      descripcion: 'lorem impusm ajhjks ahajhsjhsjs abaicsdn sdjsdij',
+      descripcion: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, ea.',
       precio: 3000000,
       imagen: 'https://www.buyincolombia.com/wp-content/uploads/2018/08/buy-in-colombia-colombia-real-estate-realty-finca-raiz-colombia-lots-for-sale-lotes-en-venta-guatavita-gv-19-56-818x540.jpg'
     }
